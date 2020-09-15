@@ -1,0 +1,8 @@
+main: com.TopThreePlayz.Manager.Main
+name: CommandSpy
+version: 1.0
+author: TopThreePlayz
+api-version: 1.15
+
+commands:
+   CommandSpy:

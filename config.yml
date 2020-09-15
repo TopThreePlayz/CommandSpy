@@ -1,0 +1,3 @@
+reload-message: "&aCommandSpy Reloaded"
+#You can use the %player% and %command% placeholders
+commandspy-message: "&2[&aStaff&2] &a(Command) &2| &7%player%: %command%"
