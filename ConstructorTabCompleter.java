@@ -12,9 +12,8 @@ public class ConstructorTabCompleter implements TabCompleter {
 
 	
 	public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args){
-        if(command.getName().equalsIgnoreCase("commandspy") && args.length == 1) { //if we are on the first arg
-            if(sender instanceof Player) { //and we are a player
-                //return these commands to auto complete with
+        if(command.getName().equalsIgnoreCase("commandspy") && args.length == 1) {
+            if(sender instanceof Player) {
                 return Arrays.asList("reload");
             }
         }
