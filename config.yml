@@ -1,3 +1,11 @@
 reload-message: "&aCommandSpy Reloaded"
-#You can use the %player% and %command% placeholders
-commandspy-message: "&2[&aStaff&2] &a(Command) &2| &7%player%: %command%"
+
+messages:
+   
+   #You can use the %player% %command% and %message% placeholders
+   
+   commandspy-toggled: true
+   commandspy-message: "&2[&aStaff&2] &a(Command) &2| &7%player%: %command%"
+   
+   signspy-toggled: true
+   signspy-message: "&2[&aStaff&2] &a(Sign) &2| &7%player%: %message%"
